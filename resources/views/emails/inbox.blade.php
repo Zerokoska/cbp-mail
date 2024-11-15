@@ -16,6 +16,7 @@
                 <td>{{ $email->subject }}</td>
                 <td>{{ $email->body }}</td>
                 <td>{{ $email->created_at }}</td>
+                
             </tr>
             @endforeach
         </tbody>
